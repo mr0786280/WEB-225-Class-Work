@@ -1,2 +1,140 @@
-/* CSS Document */
+header h1 {
+  padding-left: 60px;
+}
 
+p {
+  padding: 5px;
+  margin: 12%;
+  border: thin solid purple;
+}
+
+footer {
+  padding: 10px;
+  margin: 12%;
+  border: thin solid purple;
+}
+
+.logo{
+  position: fixed;
+  border: thin dashed #9400D3;
+  padding-top: 4px;
+  box-sizing: border-box;
+  background-color: #DDA0DD;	
+  color: #FFF;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #aaaaaa ;
+  cursor: pointer;
+  /* ?????
+  transition: background-color .5s ease-in-out;
+  transition: color .5s ease-in-out;
+  animation: pulser 2s infinite;
+  transition: pulser .5s ease-in-out;
+   pick up here 
+  animation: moveShad 20s infinite ease-in-out;
+  transition: box-shadow 15s ease-in-out;
+  */
+}
+
+.logo:hover{
+  color: #FFF;
+  background-color: #800080;
+  box-shadow: 1px 1px 5px #777;
+ /* animation: spinL 2s 1 ease-in-out;
+  border: thin dashed #DDA0DD;
+  height: 60px;
+  width: 60px; */
+  
+  
+}
+
+@keyframes moveShad {
+  0% {
+    
+  }
+  
+  25% {
+    box-shadow: -3px -3px 5px #333;
+  }
+  
+  50% {
+    box-shadow: -3px -3px 5px #333;
+  }
+  
+  100%{
+    
+  }
+}
+
+
+@keyframes pulser {
+  0%  {
+    box-sizing: unset;
+  }
+  
+  50% {
+    box-sizing: unset;
+    padding: 10px;
+    margin: -5px;
+    
+  }
+  
+  100% {
+    box-sizing: unset;
+    
+  }
+}
+
+@keyframes spinL {
+  0%  {
+    transform: rotate(0deg)
+  }
+  
+  
+  100% {
+    transform: rotate(360deg);
+    
+  }
+}
+
+@keyframes fontbulger {
+  0% {
+    font-size: 10px;
+  }
+  30% {
+    font-size: 15px;
+  }
+  100% {
+    font-size: 12px;
+  }
+}
+
+/*
+
+#logo {
+   -webkit-animation: NAME-YOUR-ANIMATION 5s infinite; Safari 4+ 
+  -moz-animation:    NAME-YOUR-ANIMATION 5s infinite;  Fx 5+ 
+  -o-animation:      NAME-YOUR-ANIMATION 5s infinite;  Opera 12+ 
+  animation:         NAME-YOUR-ANIMATION 5s infinite;  IE 10+, Fx 29+ 
+}
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes NAME-YOUR-ANIMATION {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+*/
