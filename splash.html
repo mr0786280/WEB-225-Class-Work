@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html lang="en">
+	
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<title>Splash</title>
+		
+		<style>
+			
+			#hashsign {
+				
+				position: fixed;
+				top: 40%;
+				
+			}
+			
+			.intDiv {
+				
+				border: #000000 dashed thin;
+				
+				width: 50%;
+				height: 30px;
+				margin: auto;
+				transition: all 2s ease-in-out;
+				animation: zoomIn 5s linear 2s infinite alternate;
+				
+			}
+			
+			#intDiv001, #intDiv005 {
+				
+				background-color: plum;
+				margin-top: -60px;
+			}
+			
+			#intDiv002 {
+				
+				background-color: lightblue;
+				margin-top: 60px;
+
+			}
+			
+			#intDiv003, #intDiv004 {
+				height: 300px;
+				width: 30px;
+				margin-top: -130px;
+
+			}
+			
+			#intDiv003 {
+				
+				background-color: pink;
+				margin-left: 85px;
+				
+			}
+			
+			#intDiv004 {
+				
+				background-color: lime;
+				margin-left: 185px;
+			}
+			
+			@keyframes zoomIn {
+				from {
+					background-color: red;
+				}
+				to {
+					background-color: yellow;
+				}
+			}
+		
+		</style>
+	
+		
+	</head>
+
+
+	
+	<body>
+		
+		<div class="intDiv" id="intDiv001"></div>
+
+		<div class="intDiv" id="intDiv003"></div>
+		
+		<div class="intDiv" id="intDiv002"></div>
+		
+		<div class="intDiv" id="intDiv004"></div>
+		
+		<div class="intDiv" id="intDiv005"></div>
+		
+
+	
+	</body>
+
+
+
+</html>
